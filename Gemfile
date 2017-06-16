@@ -37,6 +37,16 @@ gem 'jquery-rails'
 #Api gems
 gem 'active_model_serializers'
 
+gem 'devise'
+
+gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
+# gem 'compass-rails'
+# gem 'furatto'
+gem 'furatto', github: "IcaliaLabs/furatto-rails"
+gem 'font-awesome-rails'
+gem 'simple_form'
+
+
 group :development, :test do
 	# Call 'byebug' anywhere in the code to stop execution and get a debugger console
 	gem 'byebug'
@@ -63,5 +73,3 @@ group :test do
 	gem 'ffaker'
 	gem 'shoulda-matchers', '< 3.0.0', require: false
 end
-
-gem 'devise'
