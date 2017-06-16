@@ -61,6 +61,7 @@ group :test do
 	gem "rspec-rails", "~> 2.14"
 	gem "factory_girl_rails"
 	gem 'ffaker'
+	gem 'shoulda-matchers', '< 3.0.0', require: false
 end
 
 gem 'devise'
